@@ -1,0 +1,79 @@
+#juego{
+  width: 600px;
+  height: 600px;
+  position: relative;
+  border: solid 12px black;
+  background-color: #000;
+  margin: auto;
+}
+
+.pieza{
+  outline: 1px gray  solid;
+  width: 200px;
+  height: 200px;
+  background-size: 100% 100%;
+  position: absolute;
+  transition: all .1s ease-in-out;
+}
+
+.weed {
+  z-index: 100;
+  width: 8%;
+  position: absolute;
+  left: 47%;
+  top: 47%;
+  display: none;
+}
+
+.gorra {
+  z-index: 100;
+  width: 10.5%;
+  position: absolute;
+  left: 39.5%;
+  top: 25%;
+  display: none;
+  transform:rotate(-15deg);
+}
+
+.lentes {
+  z-index: 100;
+  width: 12%;
+  position: absolute;
+  left: 38.5%;
+  top: 41%;
+  display: none;
+  transform:rotate(-15deg);
+}
+.tiburon {
+  z-index: 100;
+  width: 80%;
+  position: absolute;
+ right: 650px;
+  display: none;
+  
+}
+.fort {
+  z-index: 100;
+  width: 33%;
+  position: absolute;
+  top: 56px;
+ right: 10px;
+  display: none;
+  
+}
+
+.win {
+  z-index: 100;
+  width: 20%;
+  position: absolute;
+  left: 39.5%;
+ display: none;
+ 
+}
+
+body{
+
+  background: white;
+	background-image:url("imagenes/background.png");
+	background-size: cover;
+}
